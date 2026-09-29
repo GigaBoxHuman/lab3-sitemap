@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ОШИБКА 1: title дублируется (такой же, как на главной) — плохо для SEO -->
+    <title>Веб-студия «Пиксель» — создание сайтов под ключ</title>
+    <!-- ОШИБКА 2: description отсутствует -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- ОШИБКА 3: два h1 -->
+        <h1>Контакты</h1>
+        <h1>Свяжитесь с нами</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Как с нами связаться</h2>
+            <address>
+                <p>Телефон: +7 (999) 123-45-67</p>
+                <p>Email: info@pixel.ru</p>
+                <p>Адрес: г. Москва, ул. Примерная, д. 10</p>
+            </address>
+            <!-- ОШИБКА 4: пустой alt -->
+            <img src="images/map.jpg" alt="">
+        </section>
+
+        <section>
+            <h2>Форма обратной связи</h2>
+            <form>
+                <label>Имя: <input type="text" name="name"></label>
+                <label>Email: <input type="email" name="email"></label>
+                <label>Сообщение: <textarea name="message"></textarea></label>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Веб-студия «Пиксель».</p>
+    </footer>
+</body>
+</html>

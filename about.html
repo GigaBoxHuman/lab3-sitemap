@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ОШИБКА 1: title слишком длинный (более 60 символов) -->
+    <title>О нас — Веб-студия «Пиксель» — команда профессионалов с многолетним опытом работы в сфере веб-разработки и дизайна</title>
+    <!-- ОШИБКА 2: отсутствует meta description -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- ОШИБКА 3: два h1 на странице -->
+        <h1>О компании</h1>
+        <h1>Веб-студия «Пиксель»</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Наша история</h2>
+            <p>Мы работаем с 2017 года и за это время реализовали более 150 проектов.</p>
+            <!-- ОШИБКА 4: пустой alt -->
+            <img src="images/office.jpg" alt="">
+        </section>
+
+        <section>
+            <h2>Наша команда</h2>
+            <img src="images/team-photo.jpg" alt="">
+            <p>В нашей команде 12 специалистов: дизайнеры, разработчики, маркетологи.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Веб-студия «Пиксель».</p>
+    </footer>
+</body>
+</html>
